@@ -10,7 +10,7 @@ public class openWebsite {
 	@Test
 	public void website() {
 		WebDriver driver =new ChromeDriver();
-		driver.get("https://www.facebook.com/");
+		driver.get("https://www.facebook.com123/");
 		driver.findElement(By.name("email")).sendKeys("ssssssssssssssssss");
 		driver.findElement(By.name("pass")).sendKeys("rrrrrrrrrrrrrrrrrrrrrrrrr");
 		driver.findElement(By.name("login")).click();
