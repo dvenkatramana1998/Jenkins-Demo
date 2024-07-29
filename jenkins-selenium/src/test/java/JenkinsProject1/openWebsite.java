@@ -21,8 +21,8 @@ public class openWebsite {
 	public void Demoqa() throws InterruptedException {
 		driver.get("https://demoqa.com/text-box");
 		driver.manage().window().maximize();
-		driver.findElement(By.id("userName")).sendKeys("Dhoni");
-		driver.findElement(By.id("userEmail")).sendKeys("Dhoni@gmail.com");
+		driver.findElement(By.id("userName")).sendKeys("Dhoni")
+		driver.findElement(By.id("userEmail")).sendKeys("Dhoni@gmail.com")
 		driver.findElement(By.id("currentAddress")).sendKeys("CAddress");
 		driver.findElement(By.id("permanentAddress")).sendKeys("pAddress");
 		Thread.sleep(1000);
