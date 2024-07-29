@@ -11,7 +11,6 @@ public class openWebsite {
 	
 	@Test
 	public void website() {
-		
 		driver.get("https://www.facebook.com123/");
 		driver.findElement(By.name("email")).sendKeys("ssssssssssssssssss");
 		driver.findElement(By.name("pass")).sendKeys("rrrrrrrrrrrrrrrrrrrrrrrrr");
