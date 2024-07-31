@@ -22,8 +22,8 @@ public class openWebsite {
 		driver.get("https://demoqa.com/text-box");
 		driver.manage().window().maximize();
 		driver.findElement(By.id("userName")).sendKeys("Dhoni");
-		driver.findElement(By.id("userEmail")).sendKeys("Dhoni@gmail.com");
-		driver.findElement(By.id("currentAddress")).sendKeys("CAddress");
+		driver.findElement(By.id("userEmail")).sendKeys("Dhoni@gmail.com")
+		driver.findElement(By.id("currentAddress")).sendKeys("CAddress")
 		driver.findElement(By.id("permanentAddress")).sendKeys("pAddress");
 		Thread.sleep(1000);
 		driver.findElement(By.id("submit")).click();
