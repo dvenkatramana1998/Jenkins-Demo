@@ -40,7 +40,7 @@ public class openWebsite {
 	@Test
 	public void Amozon() throws InterruptedException {
 		driver.get("https://www.amazon.in/");
-		Thread.sleep;
+		Thread.sleep(1000);
 	}
 
 }
