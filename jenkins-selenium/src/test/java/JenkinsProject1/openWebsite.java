@@ -4,8 +4,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-import dev.failsafe.internal.util.Assert;
-
 public class openWebsite {
 	WebDriver driver =new ChromeDriver();
 	
@@ -21,8 +19,8 @@ public class openWebsite {
 	public void Demoqa() throws InterruptedException {
 		driver.get("https://demoqa.com/text-box");
 		driver.manage().window().maximize();
-		driver.findElement(By.id("userName")).sendKeys("Dhoni")
-		driver.findElement(By.id("userEmail")).sendKeys("Dhoni@gmail.com")
+		driver.findElement(By.id("userName")).sendKeys("Dhoni");
+		driver.findElement(By.id("userEmail")).sendKeys("Dhoni@gmail.com");
 		driver.findElement(By.id("currentAddress")).sendKeys("CAddress");
 		driver.findElement(By.id("permanentAddress")).sendKeys("pAddress");
 		Thread.sleep(1000);
@@ -41,8 +39,6 @@ public class openWebsite {
 	public void Amozon() throws InterruptedException {
 		driver.get("https://www.amazon.in/");
 		Thread.sleep(1000);
-		//driver.findElement(By.xpath("//div[@id='405da5c4-936c-4843-a9ee-7d88cc91a9a4']//following::a[contains(text(), 'See all offers')]\r\n"
-			//	+ "")).click();
 	}
 
 }
